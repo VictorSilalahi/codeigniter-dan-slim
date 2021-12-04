@@ -1,0 +1,9 @@
+CRITICAL - 2021-04-01 10:23:21 --> Invalid file: menu.php
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('menu', Array, true)
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\App.php(10): view('menu')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\App->index()
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

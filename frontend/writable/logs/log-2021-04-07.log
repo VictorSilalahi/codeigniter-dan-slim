@@ -1,0 +1,72 @@
+ERROR - 2021-04-07 09:40:42 --> mysqli_sql_exception: Unknown column 'tipe' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_k...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_k...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_k...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(63): CodeIgniter\Database\BaseConnection->query('insert into t_k...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(98): App\Models\M_admin->tambahkendaraan('Gear 125 S', '4', '4')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->tambahkendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-07 09:41:21 --> mysqli_sql_exception: Unknown column 'tipe' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_k...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_k...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_k...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(63): CodeIgniter\Database\BaseConnection->query('insert into t_k...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(98): App\Models\M_admin->tambahkendaraan('Gear 125 S', '4', '17500000')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->tambahkendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-07 09:42:16 --> mysqli_sql_exception: Unknown column 'tipe' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_k...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_k...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_k...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(63): CodeIgniter\Database\BaseConnection->query('insert into t_k...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(98): App\Models\M_admin->tambahkendaraan('Gear 125 S', '4', '17500000')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->tambahkendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-07 10:29:41 --> mysqli_sql_exception: Unknown column 'tipe' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('update t_kendar...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('update t_kendar...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('update t_kendar...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(73): CodeIgniter\Database\BaseConnection->query('update t_kendar...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(120): App\Models\M_admin->editkendaraan('Gear 125 SXXXX', '4', '17500000', '2')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->editkendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-07 10:29:49 --> mysqli_sql_exception: Unknown column 'tipe' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('update t_kendar...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('update t_kendar...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('update t_kendar...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(73): CodeIgniter\Database\BaseConnection->query('update t_kendar...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(120): App\Models\M_admin->editkendaraan('FreeGoXXXX', '4', '23000000', '3')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->editkendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-07 23:41:08 --> mysqli_sql_exception: Unknown column 't_kendaraan.harga' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_kendar...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_kendar...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_kendar...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(52): CodeIgniter\Database\BaseConnection->query('select t_kendar...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(86): App\Models\M_admin->kendaraan()
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->kendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

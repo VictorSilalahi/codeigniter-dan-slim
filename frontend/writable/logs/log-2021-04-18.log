@@ -1,0 +1,494 @@
+ERROR - 2021-04-18 02:20:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_kendar...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_kendar...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_kendar...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(46): CodeIgniter\Database\BaseConnection->query('select t_kendar...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(114): App\Models\M_marketing->daftarkendaraan(NULL)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->daftarkendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:26:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_kendar...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_kendar...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_kendar...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(46): CodeIgniter\Database\BaseConnection->query('select t_kendar...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(114): App\Models\M_marketing->daftarkendaraan(NULL)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->daftarkendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:27:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_kendar...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_kendar...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_kendar...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(46): CodeIgniter\Database\BaseConnection->query('select t_kendar...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(114): App\Models\M_marketing->daftarkendaraan(NULL)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->daftarkendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-18 02:29:20 --> Call to undefined function App\Models\int()
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportmarketing('3', '2018-01')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 02:29:53 --> Call to undefined function App\Models\int()
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportmarketing('3', '2018-01')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 02:30:25 --> Call to undefined function App\Models\int()
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportmarketing('3', '2018-01')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 02:31:13 --> Call to undefined function App\Models\int()
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportmarketing('3', '2018-01')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 02:31:48 --> Call to undefined function App\Models\int()
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportmarketing('3', '2018-01')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 02:32:22 --> Call to undefined function App\Models\int()
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 02:33:23 --> Call to undefined function App\Models\int()
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 02:35:21 --> Call to undefined function App\Models\int()
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 02:35:53 --> Call to undefined function App\Models\int()
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-18 02:46:07 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:47:02 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:47:18 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:47:18 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:47:23 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:47:23 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:47:31 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:47:31 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:47:52 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:47:52 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:00 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:00 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:03 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:03 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:04 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:04 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:05 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:05 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:09 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:09 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:36 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:48:36 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:54:18 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:54:18 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(141): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:55:09 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(142): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:55:09 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(142): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2018-01')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:55:19 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(142): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(191): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 02:55:19 --> mysqli_sql_exception: Unknown column 't_calonnasabah.nama' in 'field list' in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(142): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(192): App\Models\M_admin->reportpermarketing('3', '2021-04')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 03:16:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and year(t_calonnasabah.tglmasuk)=0 and month(t_calonnasabah.tglmasuk)=0' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(143): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(199): App\Models\M_admin->reportpermarketing(NULL, NULL)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-18 03:16:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and year(t_calonnasabah.tglmasuk)=0 and month(t_calonnasabah.tglmasuk)=0' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select t_calonn...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select t_calonn...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select t_calonn...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(143): CodeIgniter\Database\BaseConnection->query('select t_calonn...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(200): App\Models\M_admin->reportpermarketing(NULL, NULL)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->reportpermarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-18 05:36:17 --> syntax error, unexpected 'txtNama' (T_STRING)
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('/admin/reportki...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('/admin/reportki...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 05:36:27 --> syntax error, unexpected 'txtNama' (T_STRING)
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('/admin/reportma...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('/admin/reportma...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 05:36:34 --> syntax error, unexpected 'txtNama' (T_STRING)
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('/admin/')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('/admin/')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 05:36:50 --> syntax error, unexpected 'txtNama' (T_STRING)
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('/admin')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('/admin')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 05:37:43 --> syntax error, unexpected 'txtNama' (T_STRING)
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('/admin')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('/admin')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,9 @@
+CRITICAL - 2021-05-17 23:54:20 --> Invalid file: profil 216001.php
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil 216001.p...')
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('profil 216001', Array, true)
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(14): view('profil 216001')
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

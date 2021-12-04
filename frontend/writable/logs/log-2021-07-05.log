@@ -1,0 +1,56 @@
+CRITICAL - 2021-07-05 01:15:46 --> Undefined variable: historymk
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\absensikpn.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Services\\xam...', 29, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('absensikpn', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(51): view('absensikpn', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->absensikpn('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-05 22:09:50 --> Undefined property: stdClass::$daftartanggal
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\absensikpn.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Services\\xam...', 40, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('absensikpn', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(51): view('absensikpn', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->absensikpn('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-05 22:10:33 --> Undefined property: stdClass::$sem
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\absensikpn.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Services\\xam...', 45, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('absensikpn', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(51): view('absensikpn', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->absensikpn('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-05 22:12:56 --> Undefined property: stdClass::$nama
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\absensikpn.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Services\\xam...', 44, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('absensikpn', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(51): view('absensikpn', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->absensikpn('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-05 22:14:14 --> syntax error, unexpected end of file
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('absensikpn', Array, true)
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(51): view('absensikpn', Array)
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->absensikpn('216001')
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-05 22:21:49 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

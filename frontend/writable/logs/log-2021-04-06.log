@@ -1,0 +1,117 @@
+CRITICAL - 2021-04-06 09:09:57 --> You must set the database table to be used with your query.
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Model.php(834): CodeIgniter\Model->builder()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(52): CodeIgniter\Model->__call('tambahmerk', Array)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->tambahmerk()
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-06 09:10:35 --> You must set the database table to be used with your query.
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Model.php(834): CodeIgniter\Model->builder()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(53): CodeIgniter\Model->__call('tambahmerk', Array)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->tambahmerk()
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-06 11:40:28 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\kendaraan.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 52, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/kendaraan', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(87): view('admin/kendaraan', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->kendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-06 11:40:31 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\kendaraan.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 52, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/kendaraan', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(87): view('admin/kendaraan', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->kendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-06 11:50:45 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\kendaraan.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 52, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/kendaraan', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(87): view('admin/kendaraan', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->kendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-06 11:59:11 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\kendaraan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 89, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/kendaraan', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(87): view('admin/kendaraan', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->kendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-06 12:00:15 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\kendaraan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 89, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/kendaraan', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(87): view('admin/kendaraan', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->kendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-06 12:00:50 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\kendaraan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 89, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/kendaraan', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(87): view('admin/kendaraan', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->kendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-06 12:00:54 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\kendaraan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 89, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/kendaraan', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(87): view('admin/kendaraan', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->kendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-06 12:02:51 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\kendaraan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 89, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/kendaraan', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(88): view('admin/kendaraan', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->kendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-06 12:04:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\kendaraan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 89, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/kendaraan', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(88): view('admin/kendaraan', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->kendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

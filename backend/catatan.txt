@@ -1,0 +1,14 @@
+httpd.conf
+==========
+Listen 8090
+
+
+httpd-vhost.conf
+================
+<VirtualHost *:8090>
+    ServerAdmin webmaster@site.example.com
+    DocumentRoot "D:/Services/xampp/htdocs/skripsi/arif/backend"
+    ServerName arif.backend.local
+    ErrorLog "logs/arif-error.log"
+    CustomLog "logs/arif-access.log" common
+</VirtualHost>

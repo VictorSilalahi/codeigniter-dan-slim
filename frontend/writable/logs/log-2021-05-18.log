@@ -1,0 +1,374 @@
+CRITICAL - 2021-05-18 00:41:48 --> Illegal string offset 'data'
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Services\\xam...', 17, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 00:41:51 --> Illegal string offset 'data'
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Services\\xam...', 17, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 00:43:42 --> Illegal string offset 'data'
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Services\\xam...', 17, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 00:44:04 --> Trying to get property 'data' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 17, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 00:48:16 --> Trying to get property 'npm' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 17, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 00:48:27 --> Undefined index: npm
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Services\\xam...', 17, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 00:54:01 --> Argument 2 passed to view() must be of the type array, object given, called in D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php on line 19
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(19): view('profil', Object(stdClass))
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 00:54:25 --> Argument 2 passed to view() must be of the type array, object given, called in D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php on line 19
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(19): view('profil', Object(stdClass))
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 00:54:26 --> Argument 2 passed to view() must be of the type array, object given, called in D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php on line 19
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(19): view('profil', Object(stdClass))
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 00:54:29 --> Argument 2 passed to view() must be of the type array, object given, called in D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php on line 19
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(19): view('profil', Object(stdClass))
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 01:01:56 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'D:\\Services\\xam...', 50, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\profil.php(50): date_format('2001-01-01', 'd/m/Y')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('profil', Array, true)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(18): view('profil', Array)
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-18 01:03:06 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'D:\\Services\\xam...', 50, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\profil.php(50): date_format('2001-01-01', 'd-m-Y')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('profil', Array, true)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(18): view('profil', Array)
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-18 01:03:41 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'D:\\Services\\xam...', 50, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\profil.php(50): date_format('2001-01-01', 'Y-m-d')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('profil', Array, true)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(18): view('profil', Array)
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-18 01:05:00 --> date_format() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'D:\\Services\\xam...', 50, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\profil.php(50): date_format('2001-01-01')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('profil', Array, true)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(18): view('profil', Array)
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('216001')
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-18 01:22:30 --> Undefined offset: 0
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Services\\xam...', 17, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->profil('21604')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 01:30:13 --> Cannot use object of type stdClass as array
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216004')
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-18 07:11:47 --> Undefined property: stdClass::$daftarnilai
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Services\\xam...', 27, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 07:12:48 --> Undefined property: stdClass::$keterangan
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Services\\xam...', 27, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 07:25:10 --> Trying to get property 'data' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 27, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 07:26:16 --> Trying to get property 'data' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 27, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 07:27:41 --> Trying to get property 'data' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 27, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 07:28:04 --> Trying to get property 'data' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 27, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 07:39:44 --> Undefined variable: profil
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\daftarnilai.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Services\\xam...', 30, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('daftarnilai', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(30): view('daftarnilai', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 07:46:24 --> Undefined property: stdClass::$nh
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\daftarnilai.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Services\\xam...', 44, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('daftarnilai', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(30): view('daftarnilai', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 07:46:45 --> Undefined property: stdClass::$nh
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\daftarnilai.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Services\\xam...', 45, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('daftarnilai', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(30): view('daftarnilai', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 07:48:34 --> Object of class stdClass could not be converted to string
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include()
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('daftarnilai', Array, true)
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(30): view('daftarnilai', Array)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-18 07:51:10 --> Cannot use object of type stdClass as array
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include()
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('daftarnilai', Array, true)
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(30): view('daftarnilai', Array)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-18 07:52:04 --> Undefined property: stdClass::$nh
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\daftarnilai.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Services\\xam...', 46, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('daftarnilai', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(30): view('daftarnilai', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->nilai('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 08:11:21 --> Undefined index: nilai
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Services\\xam...', 39, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->biayakuliah('216001')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 08:15:50 --> Undefined variable: nilai
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\biayakuliah.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Services\\xam...', 30, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('biayakuliah', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(40): view('biayakuliah', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->biayakuliah('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 08:16:04 --> Trying to get property 'photo' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\biayakuliah.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 30, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('biayakuliah', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(40): view('biayakuliah', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->biayakuliah('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 08:16:06 --> Trying to get property 'photo' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\biayakuliah.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 30, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('biayakuliah', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(40): view('biayakuliah', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->biayakuliah('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 08:16:20 --> Trying to get property 'photo' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\biayakuliah.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 30, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('biayakuliah', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(40): view('biayakuliah', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->biayakuliah('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 08:16:21 --> Trying to get property 'photo' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\biayakuliah.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 30, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('biayakuliah', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(40): view('biayakuliah', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->biayakuliah('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 08:16:52 --> Trying to get property 'photo' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\biayakuliah.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 30, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('biayakuliah', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(40): view('biayakuliah', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->biayakuliah('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 08:17:30 --> Trying to get property 'photo' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\biayakuliah.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 30, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('biayakuliah', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(40): view('biayakuliah', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->biayakuliah('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 08:19:31 --> Trying to get property 'photo' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\biayakuliah.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 30, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('biayakuliah', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(40): view('biayakuliah', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->biayakuliah('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 08:20:46 --> Trying to get property 'npm' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\biayakuliah.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 32, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('biayakuliah', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(40): view('biayakuliah', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->biayakuliah('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 08:28:53 --> Undefined property: stdClass::$photo
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Views\biayakuliah.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Services\\xam...', 45, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\Common.php(1217): CodeIgniter\View\View->render('biayakuliah', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(40): view('biayakuliah', Array)
+#5 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->biayakuliah('216001')
+#6 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#7 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 09:22:06 --> Too few arguments to function App\Controllers\App::statistik(), 0 passed in D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->statistik()
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-18 09:22:23 --> Undefined variable: angkatan
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Services\\xam...', 46, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->statistik()
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 10:20:00 --> Trying to get property 'keterangan' of non-object
+#0 D:\Services\xampp\htdocs\skripsi\arif\frontend\app\Controllers\App.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Services\\xam...', 48, Array)
+#1 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(936): App\Controllers\App->daftarmahasiswa('2016')
+#2 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App))
+#3 D:\Services\xampp\htdocs\skripsi\arif\frontend\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\arif\frontend\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

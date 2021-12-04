@@ -1,0 +1,380 @@
+CRITICAL - 2021-04-11 05:34:10 --> You must set the database table to be used with your query.
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Model.php(834): CodeIgniter\Model->builder()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(48): CodeIgniter\Model->__call('merk', Array)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->nasabah()
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-11 05:34:36 --> You must set the database table to be used with your query.
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Model.php(834): CodeIgniter\Model->builder()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(48): CodeIgniter\Model->__call('merk', Array)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->nasabah()
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-11 05:41:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_c...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_c...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_c...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(44): CodeIgniter\Database\BaseConnection->query('insert into t_c...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(65): App\Models\M_marketing->tambahnasabah('Iwan Setiawan', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-11 05:41:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select max(calo...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select max(calo...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select max(calo...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(45): CodeIgniter\Database\BaseConnection->query('select max(calo...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(65): App\Models\M_marketing->tambahnasabah('Iwan Setiawan', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 05:41:58 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'D:\\Services\\xam...', 67, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(67): mkdir('./public/data/', 511, true)
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-04-11 05:43:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_c...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_c...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_c...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(44): CodeIgniter\Database\BaseConnection->query('insert into t_c...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(65): App\Models\M_marketing->tambahnasabah('Iwan Setiawan', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-11 05:44:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_c...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_c...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_c...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(44): CodeIgniter\Database\BaseConnection->query('insert into t_c...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Iwan Setiawan', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-11 05:44:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_c...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_c...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_c...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(45): CodeIgniter\Database\BaseConnection->query('insert into t_c...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Iwan Setiawan', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 05:54:44 --> Call to a member function move() on array
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-11 05:55:37 --> Call to a member function move() on array
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-11 05:59:14 --> Call to a member function move() on null
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-11 06:02:53 --> Call to a member function getRandomName() on null
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-11 07:10:02 --> Function name must be a string
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-11 07:10:29 --> Function name must be a string
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-04-11 07:12:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_c...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_c...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_c...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(44): CodeIgniter\Database\BaseConnection->query('insert into t_c...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Iwan Setiawan', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-11 07:12:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select max(calo...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select max(calo...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select max(calo...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(45): CodeIgniter\Database\BaseConnection->query('select max(calo...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Iwan Setiawan', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:12:05 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'D:\\Services\\xam...', 66, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(66): mkdir('./public/data/', 511, true)
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-04-11 07:13:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_c...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_c...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_c...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(44): CodeIgniter\Database\BaseConnection->query('insert into t_c...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-11 07:13:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select max(calo...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select max(calo...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select max(calo...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(45): CodeIgniter\Database\BaseConnection->query('select max(calo...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:13:51 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'D:\\Services\\xam...', 66, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(66): mkdir('./public/data/', 511, true)
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-04-11 07:15:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_c...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_c...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_c...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(44): CodeIgniter\Database\BaseConnection->query('insert into t_c...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Menikah', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-11 07:15:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select max(calo...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select max(calo...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select max(calo...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(45): CodeIgniter\Database\BaseConnection->query('select max(calo...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Menikah', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:15:50 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'D:\\Services\\xam...', 66, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(66): mkdir('./public/data/', 511, true)
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-04-11 07:16:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_c...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_c...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_c...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(44): CodeIgniter\Database\BaseConnection->query('insert into t_c...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Menikah', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-11 07:16:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select max(calo...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select max(calo...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select max(calo...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(45): CodeIgniter\Database\BaseConnection->query('select max(calo...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Menikah', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:16:49 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'D:\\Services\\xam...', 66, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(66): mkdir('./public/data/', 511, true)
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-04-11 07:17:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_c...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_c...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_c...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(44): CodeIgniter\Database\BaseConnection->query('insert into t_c...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Menikah', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-11 07:17:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select max(calo...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select max(calo...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select max(calo...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(45): CodeIgniter\Database\BaseConnection->query('select max(calo...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Menikah', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:17:24 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'D:\\Services\\xam...', 66, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(66): mkdir('./public/data/', 511, true)
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-04-11 07:18:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_c...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_c...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_c...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(44): CodeIgniter\Database\BaseConnection->query('insert into t_c...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-11 07:18:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select max(calo...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select max(calo...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select max(calo...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(45): CodeIgniter\Database\BaseConnection->query('select max(calo...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:18:06 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'D:\\Services\\xam...', 66, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(66): mkdir('./public/data/', 511, true)
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-04-11 07:20:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('insert into t_c...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_c...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_c...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(44): CodeIgniter\Database\BaseConnection->query('insert into t_c...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-11 07:20:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('select max(calo...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('select max(calo...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('select max(calo...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_marketing.php(45): CodeIgniter\Database\BaseConnection->query('select max(calo...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(64): App\Models\M_marketing->tambahnasabah('Anton Sinaga', 'Pria', 'Jl SM Raja 600A', 'Single', 'PNS', '')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:23:33 --> Function name must be a string
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-11 07:25:25 --> Function name must be a string
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-11 07:26:47 --> Function name must be a string
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-11 07:27:08 --> Function name must be a string
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-11 07:29:17 --> Function name must be a string
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-11 07:30:49 --> Call to a member function getRandomName() on array
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-11 07:32:44 --> Call to a member function getRandomName() on array
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->tambahnasabah()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

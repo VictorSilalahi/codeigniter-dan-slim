@@ -1,0 +1,146 @@
+CRITICAL - 2021-04-08 00:27:39 --> Cannot redeclare App\Models\M_admin::kendaraan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-08 00:37:02 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\tenagamarketing.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 54, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/tenagamar...', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(130): view('admin/tenagamar...', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->tenagamarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 00:37:24 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\tenagamarketing.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 54, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/tenagamar...', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(130): view('admin/tenagamar...', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->tenagamarketing()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-08 01:01:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('update t_market...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('update t_market...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('update t_market...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(101): CodeIgniter\Database\BaseConnection->query('update t_market...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(159): App\Models\M_admin->setstatus('3', NULL)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->setstatus()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-08 01:09:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('update t_market...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('update t_market...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('update t_market...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(101): CodeIgniter\Database\BaseConnection->query('update t_market...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(159): App\Models\M_admin->setstatus('3', 'non aktif')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->setstatus()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-08 01:09:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('update t_market...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('update t_market...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('update t_market...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(101): CodeIgniter\Database\BaseConnection->query('update t_market...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(159): App\Models\M_admin->setstatus('3', 'Non Aktif')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->setstatus()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-08 01:11:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('update t_market...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('update t_market...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('update t_market...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(101): CodeIgniter\Database\BaseConnection->query('update t_market...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(159): App\Models\M_admin->setstatus('3', 'Non Aktif')
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->setstatus()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-08 01:22:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where kendaraanid=' at line 1 in D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\MySQLi\Connection.php(314): mysqli->query('update t_kendar...')
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('update t_kendar...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('update t_kendar...')
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Models\M_admin.php(73): CodeIgniter\Database\BaseConnection->query('update t_kendar...')
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(118): App\Models\M_admin->editkendaraan(NULL, NULL, NULL)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->editkendaraan()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 04:16:45 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\merk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 53, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/merk', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(202): view('admin/merk', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->dealer()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 04:17:01 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\merk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 53, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/merk', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(202): view('admin/merk', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->dealer()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 04:17:13 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\merk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 53, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/merk', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(202): view('admin/merk', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->dealer()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 04:17:14 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Views\admin\merk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Services\\xam...', 53, Array)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include('D:\\Services\\xam...')
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('admin/merk', Array, true)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(202): view('admin/merk', Array)
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->dealer()
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-08 06:17:26 --> Too few arguments to function App\Models\M_admin::tambahdealer(), 1 passed in D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php on line 214 and exactly 5 expected
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Admin.php(214): App\Models\M_admin->tambahdealer(NULL)
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Admin->tambahdealer()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-08 09:24:33 --> Call to a member function get() on null
+#0 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(220): include()
+#1 D:\Services\xampp\htdocs\skripsi\alfredo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Services\xampp\htdocs\skripsi\alfredo\system\Common.php(1217): CodeIgniter\View\View->render('marketing/nasab...', Array, true)
+#3 D:\Services\xampp\htdocs\skripsi\alfredo\app\Controllers\Marketing.php(49): view('marketing/nasab...', Array)
+#4 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(936): App\Controllers\Marketing->nasabah()
+#5 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+#6 D:\Services\xampp\htdocs\skripsi\alfredo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Services\xampp\htdocs\skripsi\alfredo\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
